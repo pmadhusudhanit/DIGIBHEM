@@ -1,0 +1,48 @@
+body{
+    width: 98%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHgA1QMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAAAQIDBAUG/8QAIhABAAICAgIDAQEBAAAAAAAAAAERAhIDITFhE0FRInEE/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAbEQEBAQEBAAMAAAAAAAAAAAAAERIBAiFBUf/aAAwDAQACEQMRAD8A/c4cNdz5b0dsYuO/LWjvpy7x59DR30ax4tpNkeWcYTCcsMoyx8vdn/zxOPXmHn+OZyrU56Sc678c48mNx5+4/G9V4uCOOPH9T5l01Z05d8/jlqxl+PRr6Ynj/F56TLhq1jxXPp1jBvGDvpIzGEJOLtSUzWcuWpr+uuqTjFVJpcvHy5bfzHhy0enPinH66Y1b56dOeefTjoxycMZx7enVdV0sj508VdSnxvoZ8W3+uOn6u3Tny8vxmj1aGhtqPLoaPV8aTxmyPLor0fGGx6YwmJdMYtucZiamFxwuXnrcY0t0xiI6dIwpdfSaZ7xnUjGLuu24haNMxmjV0jEo0zlz1Jjp0pNSkc4hab1SYNJlmO+mqKWuimWJ8tVBSTMxHXkq5Z5JqKiLlx0daJ6Wrzy4zFJj7dJizVdN5ZnGu3PLHabdTU0c8x59fRo9GpqaacNDR31NTSRw0HfX0hoj1ThErGNN1I41vrNFNVJUpUZpqMem8cPuV1KkYopvUoqRzopvUpaRiimqKKRiim6KKRzmGadqhMsSrxypmcXWicSjjqTi66mpWnHVadNTUqxy1WMXTVaKRy1NLdaWMaKyxGNQjrQVHp5cImNo6cJh0zz3nrxCQ58dOst4xCUsdBGqSYUEYpaaCozSU2UUjFFNzCUUjNFNUUVIzSU2kwVqMUTHTRS1YxqU1RRSMamrdLSDGpq1S0UY1WIaoopEqBoKkaywqevDLrlP0zTNbjKxFlNYytQopQEopQRKFAQmFEGKGqKUZGqZBKFKKvOM0tLRMFEFpaKRmimqKKJRS0tFGaGqCjVFKMKlFKAgoCCgIKAhSgJRSgJRSgJqUoCUUoCUaqAmpqoCUUoCUKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//9k=');
+}
+.m1{
+    text-align: center;
+    color: red;
+    font-size: 200%;
+}
+.h1{
+    margin-right: 20%;
+}
+label{
+    font-size: 200%;
+}
+input{
+    margin-left: 1%;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 60%;
+}
+#rr{
+    text-align: center;
+    background-color:black ;
+    color: white;
+    margin-top: 3%;
+    font-size: 130%;
+}
+button{
+    width:10%;
+    font-size: 100%;
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 2%;
+    background-color: rgba(128, 128, 128, 0.721);
+    border: none;
+}
+button:hover{
+    color: blue;
+    cursor: pointer;
+    background-color: rgba(153, 205, 50, 0.46);
+}
+button:active{
+    background-color: black;
+    color: red;
+}

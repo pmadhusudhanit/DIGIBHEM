@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" type="text/css" href="hotelcss.css">
+    <script src="./hotel.js"></script>
+</head>
+<body>
+    <fieldset style="padding: 2%;border-radius: 5px;" id="f1">
+    <form id="f1">
+    <h1 style="font-size: 500%;display: inline;"><center>SSM Hotels</center></h1>
+    <h1 style="font-size: 250%;display: inline;color: green;"><center>Registration Form</center></h1>
+    <h2 class="m1">Customer Info</h2><br><br>
+    <center>
+    <div style="padding: 1%;display: flex;">
+                <label for="1" >Customer Name :<input type="text" placeholder="enter Your name"  name="Name" id="1" class="h1" required > </label>
+                <label for="2">Check-in Date :<input type="date" name="Check-in" id="2" class="h2" required ></label><br><br>
+                <label for="3" style="margin-left:5%;">Total No.of Days: <input type="number" placeholder="enter no.of days" name="days" class="h1" id="3" required ></label>
+                <label for="4" style="margin-right:6% ;">Total No.of Persons:<input type="number" placeholder="enter no.of persons" name="persons" class="h2" id="4" required ></label></div>
+
+    <h2 style="margin-top: 8%;font-size: 200%;color: red;">Room Information</h2>
+        
+        <h4 style="font-size: 150%;">Room Type:</h4>
+        <select name="" id="r1" style="font-size: 120%;">
+            <option value="">Select Room Type</option>
+            <option value="Delux">Delux Rooms</option>
+            <option value="Suite">Suite Rooms</option>
+        </select>
+
+        <h4 style="font-size: 150%;">Amenities:</h4>
+        <select name="" id="r2" style="font-size: 120%;">
+            <option value="">Select Amenities</option>
+            <option value="AC">AC</option>
+            <option value="Lock">Locker</option>
+        </select>
+        <br>
+<div id="rr">
+<h2 style="color: red;">Room Rates</h2>
+<p style="font-size: 120%;">Delux Room:2500/- <br>
+    Suite Room: 4000/- <br>
+    AC: 1000/- <br>
+    Locker: 300/</p>
+</div>
+ 
+<h2 style="margin-top: 8%;font-size: 200%;margin-top: 3%;">Advance Payment</h2>
+                <label for="5">Advance Amount : <input name="pay" type="number" id="5" placeholder="enter the advance amount" style="width: 20%;margin-left: 1%;"></label>
+ <!-- Balance Amount (Automatic Field) -->
+<h2 style="margin-top: 8%;font-size: 200%;margin-top: 3%;">Balance Amount</h2>
+                <label for="bal">Balance Amount : <input name="bal" id="bal" readonly style="width: 20%;margin-left: 1%;"></label>
+<!-- Total Amount Calculation(Automatic Field) -->
+<h2 style="margin-top: 8%;font-size: 200%;margin-top: 3%">Total Cost Calculation</h2>
+                <label for="TRC">Total Room Cost : <input name="pay" id="TRC" readonly style="width: 20%;margin-left: 1%;"></label> <br> <br> 
+                <label for="TAC">Total Amenities cost : <input name="Amenities" id="TAC" readonly style="width: 20%;margin-left: 1%;"></label> <br> <br>
+                <label for="TC">Total Cost : <input name="cost" id="TC" readonly style="width: 20%;margin-left: 1%;"></label>
+
+<h2 style="margin-top: 8%;font-size: 200%;margin-top: 3%;">Additional Charges</h2>
+                <p style="font-size: 150%;">- Upto 2 People: No Change in Cost<br><br>
+                    - Per Day Cost for Extra Person: 1000/-</p>
+<button onclick="cal()">SUBMIT</button>
+<button>RESET</button>
+</form>
+</fieldset>
+</div>
+</center>
+</body>
+</html>
